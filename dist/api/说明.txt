@@ -1,0 +1,120 @@
+
+api
+注册：
+    用户名验证
+        post
+        api/checkname.php
+    参数：
+        username:验证的用户名
+
+        返回{ 
+            "code" => 1可以注册， ,
+            "message" => 详情信息
+        }
+
+
+    用户名注册
+        post   
+        api/enroll.php
+    参数：    
+        username：用户名
+        password：密码
+        返回{ 
+            "code" => 1 注册成功 
+            "message" => 详情信息,
+            "username" => 该用户账号
+        }
+
+登录：
+    用户名登录
+        post   
+        api/login.php
+    参数：    
+        username：用户名
+        password：密码
+        返回{ 
+            "code" =>  1 登录成功 ,
+            "message" => 详情信息,
+            "username" => 该用户账号
+        }
+
+列表页：
+    列表页渲染和排序
+        get
+        api/goodslist.php
+    参数：
+        page：第几页
+        qty：每页几条数据
+        type：按什么排序 默认goodsid、价格price、人气collect、折扣discount、时间time
+        order：默认升序  desc降序/asc升序
+        返回[
+            code：1有数据，0没有数据
+            sum：总条数
+            page：当前页数
+            list：商品数据
+            qty：每页多少条
+            type：排序类型
+            order：升降序
+        ]
+
+详情页：
+    详情页渲染
+        get
+        api/details.php
+    参数：
+        goodsid：商品id
+    返回{
+            code：1有数据，0参数有误
+            data：商品数据
+        }
+    加入购物车
+        get
+        api/add_cart.php
+    传参
+        * goodsid 商品id
+        * uid 用户id
+        * num 数量
+    返回值
+        * code 1
+            * goodsid 商品id
+            * uid 用户id
+            * num 商品数量
+            * message "加入成功"
+        * code 0
+            * message  "该商品已在购物车内"
+
+购物车：
+    购物车渲染
+        post
+        api/shoppingCart.php
+    参数：
+        uid：用户id
+    返回[
+            code：1有数据，2没有商品，0参数错误
+            datalist：该用户购物车的所有商品（含商品数量：nums、该商品在列表的id：deleid）
+            message：加载信息
+        ]
+
+    数量加减
+        get
+        api/add_sub.php
+    参数：
+        deleid: 该商品在列表的id
+        type: add加 / sud减
+    返回：* code 1更新成功/0最值/2参数有误
+            * "num" => 当前数量
+            * "stroks" => 库存
+            * "type" => 加或减
+            * "message" => ""
+
+    删除单行/多行(自己循环调用)
+        get
+        api/delete.php
+    返回：* code 1已删除/0未删除
+          * "message" => ""
+
+
+
+
+
+
