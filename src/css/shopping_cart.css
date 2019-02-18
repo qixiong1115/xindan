@@ -1,0 +1,178 @@
+/* 
+* @Author: Marte
+* @Date:   2019-02-12 14:50:26
+* @Last Modified by:   Marte
+* @Last Modified time: 2019-02-15 15:01:06
+*/
+#cart .cart{
+    margin:0 auto;
+    width: 960px;
+}
+#cart .cart .commodity_table{
+    width: 960px;
+    margin: 30px 0 50px 0;
+    border:1px solid #BFBFBF;
+}
+#cart .cart .commodity_table>table>tbody>tr>th{
+    border-bottom:1px solid #BFBFBF;
+    font-size: 12px;
+    color:#484848;
+    height: 33px;
+}
+#cart .cart .commodity_table>table>tbody>tr>th,.commodity_table>table>tbody>tr>td{
+    width: 782px;
+}
+#cart .cart .commodity_table>table>tbody>tr>th:nth-child(2),.commodity_table>table>tbody>tr>td:nth-child(2){
+    width: 178px;
+}
+td .header tr td{
+    font-size: 12px;
+    color:#484848;
+    line-height: 30px;
+}
+td tbody tr td:nth-child(1){
+    width: 60px;
+}
+td tbody tr td:nth-child(2){
+    width: 375px;
+}
+td tbody tr td:nth-child(3){
+    width: 100px;
+    text-align: center;
+}
+td tbody tr td:nth-child(4){
+    width: 70px;
+    text-align: center;
+}
+td tbody tr td:nth-child(5){
+    width: 96px;
+    text-align: center;
+}
+td tbody tr td:nth-child(6){
+    width: 80px;
+    text-align: center;
+}
+td .message tr{
+    border-top: 1px solid #D9D9D9;
+}
+td .message tr:nth-child(1){
+    border-top: none;
+}
+td .message tr td{
+    padding: 20px 0;
+}
+td .message tr td:nth-child(1){
+    text-align: center;
+}
+td .message tr td img{
+    vertical-align: middle;
+}
+td .message tr .xinxi a{
+    display:inline-block;
+    width: 260px;
+    font-size: 12px;
+    color:#666666;
+    vertical-align: middle;
+}
+td .message tr td .jiage{
+    font-size: 12px;
+    color: #484848;
+}
+td .message tr td .fanhui{
+    font-size: 12px;
+    color: #628100;
+}
+td .message tr .shuliang input{
+    width: 38px;
+    height: 24px;
+    border:1px solid #BBBBBB;
+    text-align: center;
+}
+td .message tr .shuliang >span{
+    display:inline-block;
+    width: 14px;
+    height: 24px;
+    vertical-align: middle;
+    background: url(../img/plusminus.png) no-repeat;
+}
+td .message tr .shuliang >span span{
+    display:block;
+    width: 13px;
+    height: 11px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+td .message tr td .xiaoji{
+    font-size: 12px;
+    color: #FE7B23;
+}
+td .message tr .caozuo a{
+    display:inline-block;
+    font-size: 12px;
+}
+.sum {
+    padding:0 10px;
+}
+.sum span{
+    font-size: 12px;
+    color:#484848;
+}
+.sum em{
+    /*font-size: 12px;*/
+    color:#FE7B23;
+    font-weight: bold;
+}
+.sum  div{
+    background:#F7661F;
+    margin:20px 0;
+}
+.sum  div a{
+    display:block;
+    height: 48px;
+    line-height: 48px;
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+}
+.sum>a{
+    font-size: 12px;
+}
+.qianggou{
+    border:1px solid #BBBBBB;
+    margin-bottom: 40px;
+}
+.qianggou h2{
+    font-size: 14px;
+    color:#FF6600;
+    line-height: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-bottom: ;
+    border-bottom:1px solid #BBBBBB;
+}
+.qianggou li{
+    float: left;
+    width: 145px;
+    height: 250px;
+    margin:20px 23px;
+}
+.qianggou li p{
+    font-size: 12px;
+    color:#666666;
+}
+.qianggou li span{
+    font-size: 12px;
+    color:#FF6600;
+    font-weight: bold;
+}
+.qianggou li a{
+    display:inline-block;
+    width: 82px;
+    height: 25px;
+    border:1px solid #BBBBBB;
+    font-size: 12px;
+    color:#666666;
+    text-align: center;
+    line-height: 23px;
+    margin:20px;
+}

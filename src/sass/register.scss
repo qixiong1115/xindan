@@ -1,0 +1,147 @@
+#register{
+    background:#F9F9F9;
+     margin-bottom:40px;
+    .register{
+        height: 490px;
+        .register_t{
+            p{
+                font-size:12px;
+                color:#484848;
+                text-align:right;
+                line-height:30px;
+                em{
+                    color:#FE0000;
+                }
+            }
+            .one{
+                .Img{
+                    width: 648px;
+                    height: 25px;
+                    background:url(../img/register_step.png) no-repeat;
+                    margin: 30px auto;
+                }
+                .register_content{
+                    text-align:center;
+                    div{
+                        margin-bottom:25px;
+                        text-align:center;
+                        label{
+                                display: inline-block;
+                                font-size:12px;
+                                height: 32px;
+                                width: 66px;
+                                line-height:32px;
+                                text-align:left;
+                                cursor: default;
+                                vertical-align: middle;
+                                font-family: tahoma,\5b8b\4f53!important;
+                                text-align:center;
+                        }
+                        input{
+                            height: 32px;
+                            border:1px solid #cfcfcf;
+                            vertical-align: middle; 
+                        }
+                        span{
+                            font-size:12px;
+                        }
+                    }
+                    em{
+                        display:inline-block;
+                        width: 100px;
+                        height: 40px;
+                        font-size:16px;
+                        line-height:40px;
+                        cursor:pointer;
+                        background:#E1E1E1;
+                        border:1px solid #cfcfcf;
+                        margin-bottom:20px;
+                    }
+                    a{
+                        display:block;
+                        width: 252px;
+                        height:34px;
+                        background:#E1E1E1;
+                        border:1px solid #868686;
+                        color:#484848;
+                        text-align:center;
+                        line-height:34px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .two{
+                display:none;
+                .Img{
+                    width: 648px;
+                    height: 25px;
+                    background:url(../img/register_step.png) no-repeat 0 -77px;
+                    margin: 30px auto;
+                }
+                .register_content{
+                    text-align:center;
+                    div{
+                        margin-bottom:25px;
+                        text-align:center;
+                        label{
+                                display: inline-block;
+                                font-size:12px;
+                                height: 32px;
+                                width: 66px;
+                                line-height:32px;
+                                text-align:left;
+                                cursor: default;
+                                vertical-align: middle;
+                                font-family: tahoma,\5b8b\4f53!important;
+                                text-align:center;
+                        }
+                        input{
+                            height: 32px;
+                            border:1px solid #cfcfcf;
+                            vertical-align: middle; 
+                        }
+                        span{
+                            font-size:12px;
+                        }
+                    }
+                    p{
+                        text-align:center;
+                    }
+                    a{
+                        display:block;
+                        width: 252px;
+                        height:34px;
+                        background:#F55B17;
+                        color:#ffffff;
+                        text-align:center;
+                        line-height:34px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .three{
+                display:none;
+                text-align:center;
+                .Img{
+                    width: 648px;
+                    height: 25px;
+                    background:url(../img/register_step.png) no-repeat 0 -151px;
+                    margin: 30px auto;
+                }
+                .succeed{
+                    i{
+                        display:inline-block;
+                        width: 35px;
+                        height: 35px;
+                        background:url(../img/reg.png) no-repeat;
+                        vertical-align: middle;
+                    }
+                    a{
+                        font-size:14px;
+                        color:#F55B18;
+                    }
+                }
+            }
+        }
+    }
+}
